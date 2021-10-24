@@ -1,0 +1,8 @@
+.terraform.*
+SecretKey.txt
+ntp-policy/get_policies/.terraform*
+ntp-policy/get_policies/SecretKey.txt
+ntp-policy/get_policies/terraform.*
+ntp-policy/create_policies/.terraform*
+ntp-policy/create_policies/SecretKey.txt
+ntp-policy/create_policies/terraform.*
