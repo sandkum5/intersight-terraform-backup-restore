@@ -15,6 +15,6 @@
 3. Execute "make". This should create the policies in the new Account using terraform.tfvars.json file in get_policies directory.
 
 # NOTE
-*Ensure you provide API keys for a test account in STEP 2 to validate it works as expected.
-*This will create the objects and can affect production.
-*Don't run this against a production account unless you know what you are doing.
+- Ensure you provide API keys for a test account in STEP 2 to validate it works as expected.
+- This will create the objects and can affect production.
+- Don't run this against a production account unless you know what you are doing.
