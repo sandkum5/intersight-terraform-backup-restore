@@ -34,6 +34,8 @@ def ntp_parser(ntp_data_results):
         timezone = data["timezone"]
         org_moid = data["organization"][0]["moid"]
         ntp_servers = data["ntp_servers"]
+        tags = data["tags"]
+        profiles = data["profiles"]
         ntp_object = {
             "description": description,
             "name": name,
@@ -41,6 +43,8 @@ def ntp_parser(ntp_data_results):
             "ntp_policy_enabled": enabled,
             "ntp_policy_timezone": timezone,
             "ntp_server_ips": ntp_servers,
+            "profiles": profiles,
+            "tags": tags,
         }
         ntp_data_dict["ntp"].append(ntp_object)
         # print(x+1, data['name'], data['ntp_servers'], data['timezone'])

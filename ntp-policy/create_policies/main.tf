@@ -9,4 +9,5 @@ resource "intersight_ntp_policy" "ntp_policy" {
     enabled = each.value.ntp_policy_enabled
     ntp_servers = each.value.ntp_server_ips
     timezone = each.value.ntp_policy_timezone
+    tags = each.value.tags
 }
