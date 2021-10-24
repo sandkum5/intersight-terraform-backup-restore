@@ -13,4 +13,3 @@
 #### NTP-Policy 
 - Backup and Create NTP Policy. Review README.md in NTP-Policy director for more info. 
 
-- More to come.. 
